@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    border: aqua;
+}
+.navbar__links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    }
+.navbar__links-logo{
+    margin-right: 2rem;
+}
+
+.navbar__links-container{
+    display: flex;
+    flex-direction: row;
+}
+.navbar__sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar__links-container p,
+.navbar__sign,
+.navbar__menu-container p {
+    color: rgb(79, 182, 65);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+.navbar__sign button,
+.navbar__menu-container button {
+padding: 0.5rem 1rem;
+color: rgb(153, 153, 11);    
+width: 152px;
+background: rgb(27, 133, 71);
+line-height: 25px;
+font-weight: 500;
+font-size: 18px;
+border-radius: 5px;
+font-family: var(--font-family);
+border: 0;
+outline: none;
+cursor: pointer;
+ 
+}
